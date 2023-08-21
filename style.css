@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bigelow+Rules&family=Griffy&family=Handjet:wght@300&family=Henny+Penny&family=Orbitron:wght@500&display=swap');
+/* font-family: 'Alata', sans-serif;
+font-family: 'Bigelow Rules', cursive;
+font-family: 'Griffy', cursive;
+font-family: 'Handjet', cursive;
+font-family: 'Henny Penny', cursive;
+font-family: 'Orbitron', sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+body{
+    padding: 0px 20px;
+    padding-top: 70px;
+}
+.logo{
+    width: 130px;
+}
+.list ul{
+    gap: 30px;
+}
+.con-1{
+    background-color: white;
+}
+#home{
+    border-bottom: 1.5px solid black;
+}
+#about{
+    border-bottom: 1.5px solid transparent;
+}
+#courses{
+    border-bottom: 1.5px solid transparent;
+}
+#services{
+    border-bottom: 1.5px solid transparent;
+}
+#contact{
+    border-bottom: 1.5px solid transparent;
+}
+/* .list ul li{
+    border-bottom: 1.5px solid transparent;
+}
+.list ul li:hover{
+    border-bottom: 1.5px solid black;
+} */
+.list ul li a:hover{
+    color: #3490de;
+}
+
+
+/* small laptop view */
+@media only screen and (max-width: 1025px) {
+
+}
+@media only screen and (max-width: 769px) {
+    .list{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 426px) {
+    .logo{
+        width: 100px;
+    }
+
+}
