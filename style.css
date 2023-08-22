@@ -48,6 +48,29 @@ body{
     padding-left: 10px;
     padding-right: 10px;
 }
+.footer{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #68b6fa;
+}
+.foo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.foo-social{
+    flex: 30%;
+    text-align: left;
+}
+.foo-links{
+    flex: 40%;
+    text-align: center;
+}
+.foo-help{
+    flex: 30%;
+    text-align: left;
+}
 .con-2{
     display: flex;
     width: 100%;
@@ -183,6 +206,13 @@ body{
         text-align: left;
         justify-content: left;
         align-items: start;
+    }
+    .footer{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #68b6fa;
     }
 }
 @media only screen and (max-width: 426px) {
