@@ -177,8 +177,8 @@ body{
     #notification{
         display: flex;
         flex-direction: column;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 10px;
+        padding-right: 35px;
         gap: 0px;
         text-align: left;
         justify-content: left;
