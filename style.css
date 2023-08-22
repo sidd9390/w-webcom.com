@@ -62,10 +62,16 @@ body{
 .foo-social{
     flex: 30%;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .foo-links{
     flex: 40%;
     text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 .foo-help{
     flex: 30%;
