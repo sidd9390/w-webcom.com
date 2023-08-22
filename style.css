@@ -12,8 +12,7 @@ font-family: 'Orbitron', sans-serif; */
     font-family: 'Alata', sans-serif;
 }
 body{
-    padding: 0px 20px;
-    padding-top: 70px;
+    padding: 0px 0px;
 }
 .logo{
     width: 130px;
@@ -21,11 +20,92 @@ body{
 .list ul{
     gap: 30px;
 }
+
 .con-1{
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
+.one{
+    background-image: url(home-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background-attachment: fixed;
+}
+.two{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.con-2{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+.con-2-img{
+    flex: 50%;
+    align-items: center;
+    text-align: center;
+}
+.con-2-img img{
+    width: 600px;
+}
+.con-2-content{
+    flex: 50%;
+    align-items: left;
+    padding-left: 40px;
+    gap: 15px;
+}
+.bbutton{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.rbutton{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    background-color: #3490de;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.wbutton{
+    text-decoration: none;
+    color: #3490de;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bbutton:hover{
+    border: 1px solid #3490de;
+    transition: 1s;
+}
+.wbutton:hover{
+    border: 1px solid #3490de;
+    transition: 1s;
+}
+
 #home{
-    border-bottom: 1.5px solid black;
+    border-bottom: 1.5px solid Black;
 }
 #about{
     border-bottom: 1.5px solid transparent;
@@ -48,6 +128,24 @@ body{
 .list ul li a:hover{
     color: #3490de;
 }
+.para{
+    font-size: 20px;
+}
+#notification{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    text-align: left;
+    justify-content: left;
+    align-items: start;
+}
+#cancel{
+    position: absolute;
+    right: 2%;
+    cursor: pointer;
+
+}
+
 
 
 /* small laptop view */
@@ -58,10 +156,41 @@ body{
     .list{
         text-align: center;
     }
+    .con-1{
+        background-color: white;
+    }
+    .con-2-img{
+        flex: 100%;
+    }
+    .con-2-content{
+        flex: 100%;
+    }
+    .con-2-content{
+        flex: 50%;
+        align-items: left;
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+    .para{
+        font-size: 16px;
+    }
 }
 @media only screen and (max-width: 426px) {
     .logo{
         width: 100px;
+    }
+    .one h1{
+        font-size: 55px;
+    }
+    #notification{
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 0px;
+        text-align: left;
+        justify-content: left;
+        align-items: start;
     }
 
 }

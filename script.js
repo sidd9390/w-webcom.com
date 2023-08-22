@@ -38,3 +38,6 @@ function fun1(){
     services.style.borderBottomColor ="transparent";
     contact.style.borderBottomColor="transparent";
 }
+function msg(){
+    document.getElementById("notification").style.display = "none";
+}
