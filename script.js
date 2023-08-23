@@ -41,3 +41,20 @@ function fun1(){
 function msg(){
     document.getElementById("notification").style.display = "none";
 }
+let scrollContainer = document.querySelector(".gallery");
+let btnLeft = document.getElementById("btnleft");
+let btnRight = document.getElementById("btnright");
+scrollContainer.addEventListener("wheel", (evt) =>{
+    evt.preventDefault();
+    scrollContainer.scrollLeft += evt.deltaY;
+    scrollContainer.style.scrollBehavior ="auto";
+})
+btnRight.addEventListener("click",()=>{
+    scrollContainer.style.scrollBehavior ="smooth";
+    scrollContainer.scrollLeft += 280
+})
+btnLeft.addEventListener("click",()=>{
+    scrollContainer.style.scrollBehavior ="smooth";
+    scrollContainer.scrollLeft -= 280
+})
+

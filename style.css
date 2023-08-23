@@ -48,6 +48,51 @@ body{
     padding-left: 10px;
     padding-right: 10px;
 }
+.four{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.gallery{
+    width: 70%;
+    display: flex;
+    overflow-x: scroll;
+    text-align: center;
+
+}
+.gallery::-webkit-scrollbar{
+    display: none;
+}
+.gallery .gal{
+    width: 100%;
+    display: flex;
+    flex: none;
+    gap: 10px;
+    padding: 10px;
+}
+.carder{
+    display: flex;
+    flex-direction: column;
+    background-color: #3490de;
+    
+    
+}
+.navi{
+    display: flex;
+    padding-top: 10px;
+    gap: 30px;
+}
+.navi i{
+    font-size: 25px;
+    cursor: pointer;
+}
 .footer{
     padding-top: 3%;
     padding-bottom: 2%;
@@ -273,7 +318,6 @@ body{
     .foo-links{
         flex: 100%;
         text-align: left;
-
     }
     .foo-help{
         flex: 100%;
