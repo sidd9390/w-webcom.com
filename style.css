@@ -49,8 +49,8 @@ body{
     padding-right: 10px;
 }
 .footer{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 2%;
     padding-left: 30px;
     padding-right: 30px;
     background-color: #68b6fa;
@@ -66,15 +66,48 @@ body{
     flex-direction: column;
     gap: 20px;
 }
+.foo-social ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+.foo-social ul li{
+    font-size: 25px;
+    list-style: none;
+    cursor: pointer;
+}
 .foo-links{
     flex: 40%;
     text-align: center;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
+    justify-content: center;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    gap: 40px;
+}
+.links ul{
+    list-style: none;
+    text-align: left;
+}
+.links ul li{
+    cursor: pointer;
+    font-weight: lighter;
+}
+.links ul li:hover{
+    color: white;
 }
 .foo-help{
     flex: 30%;
+    text-align: center;
+}
+.foo-help ul{
+    list-style: none;
     text-align: left;
 }
 .con-2{
@@ -220,6 +253,9 @@ body{
         padding-right: 10px;
         background-color: #68b6fa;
     }
+    .links{
+        gap: 10px;
+    }
 }
 @media only screen and (max-width: 426px) {
     .logo{
@@ -227,6 +263,21 @@ body{
     }
     .one h1{
         font-size: 55px;
+    }
+    .links{
+        gap: 0px;
+    }
+    .foo-social{
+        flex: 100%;
+    }
+    .foo-links{
+        flex: 100%;
+        text-align: left;
+
+    }
+    .foo-help{
+        flex: 100%;
+        text-align: left;
     }
 
 }
