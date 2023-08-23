@@ -81,10 +81,19 @@ body{
 .carder{
     display: flex;
     flex-direction: column;
-    background-color: #3490de;
-    width: 400px;
-    
-    
+    width: 280px;
+    padding-bottom: 10px; 
+    border-radius: 8px;
+}
+.carder img{
+    width: 280px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 0px 20px;
 }
 .navi{
     display: flex;
