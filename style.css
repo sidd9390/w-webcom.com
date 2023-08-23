@@ -76,11 +76,13 @@ body{
     flex: none;
     gap: 10px;
     padding: 10px;
+    align-self: normal;
 }
 .carder{
     display: flex;
     flex-direction: column;
     background-color: #3490de;
+    width: 400px;
     
     
 }
