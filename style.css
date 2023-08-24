@@ -224,7 +224,7 @@ body{
     transition: 1s;
 }
 
-#home{
+/* #home{
     border-bottom: 1.5px solid Black;
 }
 #about{
@@ -238,7 +238,7 @@ body{
 }
 #contact{
     border-bottom: 1.5px solid transparent;
-}
+} */
 /* .list ul li{
     border-bottom: 1.5px solid transparent;
 }
