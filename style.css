@@ -65,7 +65,6 @@ body{
     display: flex;
     overflow-x: scroll;
     text-align: center;
-
 }
 .gallery::-webkit-scrollbar{
     display: none;
@@ -271,6 +270,12 @@ body{
 
 /* small laptop view */
 @media only screen and (max-width: 1025px) {
+    .gallery{
+        width: 80%;
+        display: flex;
+        overflow-x: scroll;
+        text-align: center;
+    }
 
 }
 @media only screen and (max-width: 769px) {
