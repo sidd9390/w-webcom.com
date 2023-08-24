@@ -87,6 +87,9 @@ body{
 }
 .carder img{
     width: 280px;
+    height: 150px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 .info{
     display: flex;
