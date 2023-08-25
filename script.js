@@ -42,8 +42,11 @@ function msg(){
     document.getElementById("notification").style.display = "none";
 }
 let scrollContainer = document.querySelector(".gallery");
+let scrollContainer1 = document.querySelector(".gallery1");
 let btnLeft = document.getElementById("btnleft");
 let btnRight = document.getElementById("btnright");
+let btnLeft1 = document.getElementById("btnleft1");
+let btnRight1 = document.getElementById("btnright1");
 scrollContainer.addEventListener("wheel", (evt) =>{
     evt.preventDefault();
     scrollContainer.scrollLeft += evt.deltaY;
@@ -56,5 +59,18 @@ btnRight.addEventListener("click",()=>{
 btnLeft.addEventListener("click",()=>{
     scrollContainer.style.scrollBehavior ="smooth";
     scrollContainer.scrollLeft -= 280
+})
+scrollContainer1.addEventListener("wheel", (evt) =>{
+    evt.preventDefault();
+    scrollContainer1.scrollLeft += evt.deltaY;
+    scrollContainer1.style.scrollBehavior ="auto";
+})
+btnRight1.addEventListener("click",()=>{
+    scrollContainer1.style.scrollBehavior ="smooth";
+    scrollContainer1.scrollLeft += 280
+})
+btnLeft1.addEventListener("click",()=>{
+    scrollContainer1.style.scrollBehavior ="smooth";
+    scrollContainer1.scrollLeft -= 280
 })
 

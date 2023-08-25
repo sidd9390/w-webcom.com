@@ -69,7 +69,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .five{
     padding-top: 8%;
@@ -125,12 +125,63 @@ body{
     gap: 20px;
     padding: 0px 20px;
 }
+.gallery1{
+    width: 70%;
+    display: flex;
+    overflow-x: scroll;
+    text-align: center;
+}
+.gallery1::-webkit-scrollbar{
+    display: none;
+}
+.gallery1 .gal1{
+    width: 100%;
+    display: flex;
+    flex: none;
+    gap: 10px;
+    padding: 10px;
+    align-self: normal;
+}
+.carder1{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding-bottom: 10px; 
+    border-radius: 8px;
+}
+.carder1 h6{
+    background-color: #3490de;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.carder1 img{
+    width: 280px;
+    height: 150px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.info1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 0px 20px;
+}
 .navi{
     display: flex;
     padding-top: 10px;
     gap: 30px;
 }
 .navi i{
+    font-size: 25px;
+    cursor: pointer;
+}
+.navi1{
+    display: flex;
+    padding-top: 10px;
+    gap: 30px;
+}
+.navi1 i{
     font-size: 25px;
     cursor: pointer;
 }
@@ -304,6 +355,12 @@ body{
         overflow-x: scroll;
         text-align: center;
     }
+    .gallery1{
+        width: 80%;
+        display: flex;
+        overflow-x: scroll;
+        text-align: center;
+    }
 
 }
 @media only screen and (max-width: 769px) {
@@ -348,6 +405,9 @@ body{
     .links{
         gap: 10px;
     }
+    .five{
+        padding-top: 14%;
+    }
 }
 @media only screen and (max-width: 426px) {
     .logo{
@@ -369,6 +429,9 @@ body{
     .foo-help{
         flex: 100%;
         text-align: left;
+    }
+    .five{
+        padding-top: 19%;
     }
 
 }
