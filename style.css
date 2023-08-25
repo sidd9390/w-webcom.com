@@ -84,6 +84,11 @@ body{
     padding-bottom: 10px; 
     border-radius: 8px;
 }
+.carder h6{
+    background-color: #3490de;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .carder img{
     width: 280px;
     height: 150px;
