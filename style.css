@@ -435,9 +435,4 @@ body{
     }
 
 }
-#preloader{
-    background-color:black url(loader.gif);
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-}
+
