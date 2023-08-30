@@ -44,7 +44,7 @@ body{
 }
 .two{
     padding-top: 5%;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -72,7 +72,7 @@ body{
     flex-wrap: wrap;
 }
 .seven{
-    padding-top: 9%;
+    padding-top: 12%;
     padding-bottom: 4%;
     padding-left: 10px;
     padding-right: 10px;
@@ -82,15 +82,20 @@ body{
 }
 .about{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
 }
 .about-content{
     flex: 50%;
+    text-align: left;
 }
 .about-img{
     flex: 50%;
-    text-align: left;
+    align-items: center;
+}
+.about-img img{
+    width: 500px;
 }
 .five{
     padding-top: 8%;
@@ -430,6 +435,13 @@ body{
     }
     .five{
         padding-top: 14%;
+    }
+    .about-content{
+        flex: 100%;
+        text-align: left;
+    }
+    .about-img{
+        flex: 100%;
     }
 }
 @media only screen and (max-width: 426px) {
