@@ -71,6 +71,27 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
 }
+.seven{
+    padding-top: 9%;
+    padding-bottom: 4%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.about-content{
+    flex: 50%;
+}
+.about-img{
+    flex: 50%;
+    text-align: left;
+}
 .five{
     padding-top: 8%;
     padding-bottom: 5%;
