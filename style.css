@@ -80,6 +80,42 @@ body{
     align-items: center;
     justify-content: center;
 }
+.eight{
+    padding-top: 100px;
+    padding-bottom: 4%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.services{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services-cards{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.scard{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    align-self: normal;
+}
+.scard h3{
+    padding: 20px;
+    background-color: #68b6fa;
+    margin-top: -50px;
+    border-radius: 10px;
+}
 .about{
     display: flex;
     flex-wrap: wrap;
