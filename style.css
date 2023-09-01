@@ -43,7 +43,6 @@ body{
     background-attachment: fixed;
 }
 .two{
-    padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 10px;
     padding-right: 10px;
@@ -72,7 +71,7 @@ body{
     flex-wrap: wrap;
 }
 .seven{
-    padding-top: 12%;
+    padding-top: 100px;
     padding-bottom: 4%;
     padding-left: 10px;
     padding-right: 10px;
@@ -89,6 +88,23 @@ body{
     align-items: center;
     justify-content: center;
 }
+.nine{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.ten{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
 .services{
     text-align: center;
     display: flex;
@@ -412,7 +428,24 @@ body{
 .con-2-content ul li{
     list-style: none;
 }
-
+.pstep{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.psteps{
+    display: flex;
+    flex-direction: row;
+}
+.psteps1 i{
+    font-size: 100px;
+}
+.psteps2{
+    text-align: left;
+}
+.psteps2 p{
+    text-align: justify;
+}
 
 /* small laptop view */
 @media only screen and (max-width: 1025px) {
@@ -482,6 +515,15 @@ body{
     .about-img{
         flex: 100%;
     }
+    .nine{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media only screen and (max-width: 426px) {
     .logo{
@@ -506,6 +548,15 @@ body{
     }
     .five{
         padding-top: 19%;
+    }
+    .nine{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
     }
 
 }
