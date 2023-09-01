@@ -108,13 +108,14 @@ body{
     border: 1px solid black;
     border-radius: 5px;
     padding: 7px;
-    align-self: normal;
+    align-self: normal
 }
-.scard h3{
+.slogo{
+    width: fit-content;
     padding: 20px;
     background-color: #68b6fa;
     margin-top: -50px;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 .about{
     display: flex;
