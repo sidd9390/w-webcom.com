@@ -127,6 +127,10 @@ body{
     align-self: normal;
     background-color: #3490de;
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 20px;
 }
 .slogo{
     width: fit-content;
