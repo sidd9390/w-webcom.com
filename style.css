@@ -428,6 +428,9 @@ body{
     cursor: pointer;
 
 }
+#ten{
+    padding-top: 90px;
+}
 .con-2-content ul li{
     list-style: none;
 }
@@ -448,6 +451,26 @@ body{
 }
 .psteps2 p{
     text-align: justify;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.forms input{
+    border: 0px solid transparent;
+    outline: none;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+
+}
+.forms textarea{
+    border: 0px solid transparent;
+    outline: none;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
 }
 
 /* small laptop view */
