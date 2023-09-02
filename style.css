@@ -120,8 +120,8 @@ body{
     justify-content: center;
 }
 .scard{
-    width: 300px;
-    border: 1px solid black;
+    width: 250px;
+    border: 2px solid black;
     border-radius: 10px;
     padding: 7px;
     align-self: normal;
@@ -129,7 +129,7 @@ body{
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     padding-bottom: 20px;
 }
 .slogo{
