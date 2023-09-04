@@ -78,3 +78,7 @@ function loading(){
     document.getElementById("preloader").style.display = "none";
 }
 
+function dform(){
+    alert("Thank you for Contacting Us");
+}
+
