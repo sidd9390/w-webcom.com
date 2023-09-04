@@ -74,3 +74,7 @@ btnLeft1.addEventListener("click",()=>{
     scrollContainer1.scrollLeft -= 280
 })
 
+function loading(){
+    document.getElementById("preloader").style.display = "none";
+}
+
