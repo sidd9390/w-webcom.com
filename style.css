@@ -472,6 +472,17 @@ body{
     background-color: whitesmoke;
     border-radius: 10px;
 }
+.client-website{
+    text-align: center;
+    align-items: center;
+}
+.websites{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
 
 /* small laptop view */
 @media only screen and (max-width: 1025px) {
