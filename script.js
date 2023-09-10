@@ -81,4 +81,3 @@ function loading(){
 function dform(){
     alert("Thank you for Contacting Us");
 }
-
