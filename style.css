@@ -475,6 +475,8 @@ body{
 .client-website{
     text-align: center;
     align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .websites{
     display: flex;
@@ -482,6 +484,11 @@ body{
     align-items: center;
     justify-content: center;
     gap: 10px;
+    flex-wrap: wrap;
+}
+.websites a img{
+    width: 400px;
+    border: 2px solid #3490de;
 }
 
 /* small laptop view */
