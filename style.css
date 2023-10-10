@@ -168,7 +168,7 @@ body{
     flex-wrap: nowrap;
 }
 .gallery{
-    width: 70%;
+    width: 100%;
     display: flex;
     overflow-x: scroll;
     text-align: center;
@@ -180,14 +180,14 @@ body{
     width: 100%;
     display: flex;
     flex: none;
-    gap: 10px;
+    gap: 30px;
     padding: 10px;
     align-self: normal;
 }
 .carder{
     display: flex;
     flex-direction: column;
-    width: 280px;
+    width: 230px;
     padding-bottom: 10px; 
     border-radius: 8px;
 }
@@ -197,8 +197,8 @@ body{
     padding-bottom: 10px;
 }
 .carder img{
-    width: 280px;
-    height: 150px;
+    width: 230px;
+    height: 130px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
@@ -209,8 +209,14 @@ body{
     gap: 20px;
     padding: 0px 20px;
 }
+.info p{
+    font-size: 13px;
+}
+.info1 p{
+    font-size: 13px;
+}
 .gallery1{
-    width: 70%;
+    width: 100%;
     display: flex;
     overflow-x: scroll;
     text-align: center;
@@ -222,14 +228,14 @@ body{
     width: 100%;
     display: flex;
     flex: none;
-    gap: 10px;
+    gap: 30px;
     padding: 10px;
     align-self: normal;
 }
 .carder1{
     display: flex;
     flex-direction: column;
-    width: 280px;
+    width: 230px;
     padding-bottom: 10px; 
     border-radius: 8px;
 }
@@ -239,8 +245,8 @@ body{
     padding-bottom: 10px;
 }
 .carder1 img{
-    width: 280px;
-    height: 150px;
+    width: 230px;
+    height: 130px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
@@ -494,13 +500,13 @@ body{
 /* small laptop view */
 @media only screen and (max-width: 1025px) {
     .gallery{
-        width: 80%;
+        width: 100%;
         display: flex;
         overflow-x: scroll;
         text-align: center;
     }
     .gallery1{
-        width: 80%;
+        width: 100%;
         display: flex;
         overflow-x: scroll;
         text-align: center;
@@ -568,6 +574,7 @@ body{
         display: flex;
         flex-direction: column;
     }
+
 }
 @media only screen and (max-width: 426px) {
     .logo{
