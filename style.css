@@ -124,7 +124,7 @@ body{
     border-radius: 10px;
     padding: 7px;
     align-self: normal;
-    background-color: #3490de;
+    background-color: #4169E1;
     color: white;
     display: flex;
     flex-direction: column;
@@ -183,6 +183,7 @@ body{
     gap: 30px;
     padding: 10px;
     align-self: normal;
+    margin-bottom: 20px;
 }
 .carder{
     display: flex;
@@ -192,7 +193,7 @@ body{
     border-radius: 8px;
 }
 .carder h6{
-    background-color: #3490de;
+    background-color: #4169E1;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -231,6 +232,7 @@ body{
     gap: 30px;
     padding: 10px;
     align-self: normal;
+    margin-bottom: 20px;
 }
 .carder1{
     display: flex;
@@ -240,7 +242,7 @@ body{
     border-radius: 8px;
 }
 .carder1 h6{
-    background-color: #3490de;
+    background-color: #4169E1;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -370,14 +372,14 @@ body{
     text-decoration: none;
     color: black;
     padding: 5px 10px;
-    background-color: #3490de;
+    background-color: #4169E1;
     border: 1px solid black;
     border-radius: 10px;
     cursor: pointer;
 }
 .wbutton{
     text-decoration: none;
-    color: #3490de;
+    color: #4169E1;
     padding: 10px 20px;
     background-color: transparent;
     border: 1px solid black;
@@ -385,11 +387,11 @@ body{
     cursor: pointer;
 }
 .bbutton:hover{
-    border: 1px solid #3490de;
+    border: 1px solid #4169E1;
     transition: 1s;
 }
 .wbutton:hover{
-    border: 1px solid #3490de;
+    border: 1px solid #4169E1;
     transition: 1s;
 }
 
@@ -415,7 +417,7 @@ body{
     border-bottom: 1.5px solid black;
 } */
 .list ul li a:hover{
-    color: #3490de;
+    color: #4169E1;
 }
 .para{
     font-size: 20px;
@@ -494,9 +496,11 @@ body{
 }
 .websites a img{
     width: 400px;
-    border: 2px solid #3490de;
+    border: 2px solid #4169E1;
 }
-
+.shadow01{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
 /* small laptop view */
 @media only screen and (max-width: 1025px) {
     .gallery{
