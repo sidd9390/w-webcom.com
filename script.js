@@ -1,3 +1,17 @@
+function changeBg()
+{
+  var navbar = document.getElementById('border');
+  var scrollValue = window.scrollY;
+  if(scrollValue < 70){
+    navbar.classList.remove('bor');
+  }
+  else{
+    navbar.classList.add('bor');
+  }
+  
+}
+
+window.addEventListener('scroll', changeBg);
 const home = document.getElementById("home");
 const about = document.getElementById("about");
 const courses = document.getElementById("courses");
