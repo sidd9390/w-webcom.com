@@ -16,8 +16,9 @@ body{
 }
 .spl{
     text-shadow: 0 2px 1px gray, 
-      -1px 3px 1px rgb(62, 62, 62), 
-      -2px 5px 1px rgb(33, 33, 33);
+      -1px 3px 1px rgb(108, 108, 108), 
+      -2px 5px 1px rgb(78, 77, 77),
+      -3px 7px 1px rgb(46, 46, 46);
 }
 .bor{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
