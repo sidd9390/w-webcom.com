@@ -315,6 +315,11 @@ body{
     list-style: none;
     cursor: pointer;
 }
+.foo-social ul li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
 .foo-links{
     flex: 40%;
     text-align: center;
